@@ -19,7 +19,7 @@ const AddTodo: NextPage = () => {
       // check for any null value
       return setError("All fields are required");
     } else {
-      setError("a");
+      setError("");
     }
     addTodo();
   };
